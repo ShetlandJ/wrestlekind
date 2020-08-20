@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Nav, Navbar, Row, Col, Container
+    Nav, Navbar
 } from 'react-bootstrap';
 
 function Header() {
@@ -18,7 +18,7 @@ function Header() {
 
             <div>
                 <Nav className="m-auto">
-                    <p className="header-text">WrestleKind</p>
+                    <p className="header-text mb-0">WrestleKind</p>
                 </Nav>
             </div>
 
